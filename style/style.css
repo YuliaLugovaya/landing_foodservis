@@ -1,0 +1,663 @@
+body {
+    width: 1440px;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+/*Шапка*/
+
+.header_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 120px 1fr 70px;
+    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+}
+
+.header_logo {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: 144px;
+    margin-top: 29px;
+}
+
+.header_nav {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 40px;
+    margin-right: 159px;
+    text-align: end;
+}
+
+.header_nav_menu {
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.header_title {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-left: 144px;
+}
+
+.header_title_1 {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+.header_title_2 {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.header_btn {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FC0A7E;
+    border-radius: 3px;
+    border: none;
+    padding: 20px 40px;
+}
+
+.header_image {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: end;
+    margin-right: 44px;
+}
+
+.header_arrow {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    justify-self: center;
+    margin-bottom: 30px;
+}
+
+/*Блок 1*/
+
+.block_1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 301px 656px;
+    background: #1B1B1B;
+}
+
+.block_1_title {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: center;
+    margin-top: 100px;
+}
+
+.block_1_title_1 {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A8A8A8;
+}
+
+.block_1_title_2 {
+    width: 607px;
+    height: 96px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.block_1_image {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: center;
+}
+
+/*Блок 2*/
+
+.block_2 {
+    display: grid;
+    grid-template-columns: 274px 1fr 1fr 302px;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.block_2_title_1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: grid;
+    align-self: center;
+    margin-top: 80px;
+    margin-left: 28px;
+}
+
+.block_2_title_1_img {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    align-self: center;
+    margin-top: 80px;
+    margin-right: 22px;
+}
+
+.block_2_title_2_img {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    align-self: center;
+}
+
+.block_2_title_2 {
+    display: grid;
+    align-self: center;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.block_2_title_3 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    display: grid;
+    align-self: center;
+    margin-bottom: 159px;
+}
+
+.block_2_title_3_img {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    align-self: center;
+    margin-right: 22px;
+    margin-bottom: 159px;
+}
+
+.block_2_title_text_1 {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A8A8A8;
+}
+
+.block_2_title_text_2 {
+    width: 302px;
+    height: 96px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.other {
+    width: 214px;
+    height: 48px;
+}
+
+.block_2_title_text_3 {
+    width: 306px;
+    height: 90px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B6B6B;
+}
+
+/*Блок 3*/
+
+.block_3 {
+    height: 506px;
+}
+
+.block_3_1 {
+    display: grid;
+    grid-template-columns: 102px 1fr 1fr 1fr 102px;
+    grid-template-rows: 209px;
+    margin-bottom: 100px;
+}
+
+.block_3_pink_1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    justify-self: center;
+}
+
+.block_3_pink_2 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    text-align: center;
+    justify-self: center;
+}
+
+.block_3_pink_3 {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    text-align: center;
+    justify-self: center;
+}
+
+.block_3_pink_text_1 {
+    margin-top: 10%;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.block_3_pink_text_2 {
+    width: 371px;
+    height: 90px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B6B6B;
+    text-align: center;
+}
+
+.block_3_2 {
+    display: grid;
+    grid-template-columns: 102px 1fr 1fr 1fr 1fr 102px;
+    grid-template-rows: 134px;
+}
+
+.block_3_numbers_1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    justify-self: center;
+}
+
+.block_3_numbers_2 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    text-align: center;
+    justify-self: center;
+}
+
+.block_3_numbers_3 {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    text-align: center;
+    justify-self: center;
+}
+
+.block_3_numbers_4 {
+    grid-column: 5/6;
+    grid-row: 1/2;
+    text-align: center;
+    justify-self: center;
+}
+
+.block_3_numbers_text_1 {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 59px;
+    line-height: 90px;
+    text-align: center;
+    color: #333333;
+}
+
+.block_3_numbers_text_2 {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-top: -25%;
+}
+
+/*Блок 4*/
+
+.block_4 {
+    height: 989px;
+}
+
+.block_4_1 {
+    margin-top: 170px;
+    margin-bottom: 160px;
+    display: grid;
+    grid-template-columns: 274px 412px 519px 235px;
+    grid-template-rows: 414px;
+}
+
+.block_4_title_1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: center;
+}
+
+.block_4_title_1_img {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.block_4_2 {
+    display: grid;
+    grid-template-columns: 236px 519px 407px 278px;
+    grid-template-rows: 1fr;
+}
+
+.block_4_title_2 {
+    margin-left: 77px;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    align-self: center;
+}
+
+.block_4_title_2_img {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.block_4_text_1 {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A8A8A8;
+}
+
+.block_4_text_2 {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.other2 {
+    width: 258px;
+    height: 96px;
+}
+
+.block_4_text_3 {
+    width: 330px;
+    height: 210px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B6B6B;
+    text-decoration: none;
+}
+
+.block_4_text_3 a {
+    font-weight: bold;
+    color: #6B6B6B;
+}
+
+/*Блок 5*/
+
+.block_5 {
+    height: 830px;
+    display: grid;
+    grid-template-columns: 690px 1fr 690px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.block_5_element_1 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    justify-self: center;
+    margin-top: 160px;
+}
+
+.block_5_text_1 {
+    margin-top: 65px;
+    width: 700px;
+    height: 200px;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    justify-self: center;
+    text-align: center;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #6B6B6B;
+}
+
+.block_5_text_2 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    justify-self: end;
+    margin-top: 10px;
+}
+
+.block_5_element_2 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    justify-self: center;
+    margin-top: 20px;
+}
+
+.block_5_text_3 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    margin-top: 10px;
+}
+
+.block_5_element_3 {
+    grid-column: 1/4;
+    grid-row: 4/5;
+    justify-self: center;
+    margin-top: 10px;
+}
+
+.block_5_partners {
+    grid-column: 1/4;
+    grid-row: 5/6;
+    justify-self: center;
+    margin-top: 30px;
+}
+
+/*Блок 6*/
+
+.block_6 {
+    margin-top: 70px;
+}
+
+/*Блок 7*/
+
+.block_7 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    height: 474px;
+    background: linear-gradient(276.18deg, #6E28B1 0%, rgba(0, 0, 0, 0) 100%), #FC0A7E;
+    position: relative;
+    z-index: 1;
+    margin-top: -1%;
+}
+
+.waves {
+    position: absolute;
+}
+
+.block_7_1 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    align-self: end;
+    position: relative;
+    z-index: 1;
+}
+
+.block_7_b_1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: end;
+    margin-right: 5px;
+}
+
+.block_7_b_2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-left: 5px;
+}
+
+.block_7_btn_1 {
+    border: none;
+    background: #FC0A7E;
+    border-radius: 3px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.block_7_btn_2 {
+    border-radius: 3px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    border: none;
+    background: none;
+    border: 1px solid #B04BB3;
+    padding: 19px 39px;
+    position: relative;
+    z-index: 1;
+}
+
+/*Подвал*/
+
+.footer {
+    height: 705px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    background: #1B1B1B;
+}
+
+.footer_text_1 {
+    margin-top: 129px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer_text_2 {
+    margin-top: -10px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #6B6B6B;
+}
+
+.footer_form {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    justify-self: center;
+    margin-top: -4.5%;
+}
+
+.email {
+    padding: 22px 155px 22px 22px;
+    margin-right: -0.5%;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    border: none;
+}
+
+.footer_button {
+    padding: 22px 38px;
+    margin-left: -0.5%;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    background: #FC0A7E;
+    border-radius: 0px 3px 3px 0px;
+    border: none;
+}
+
+.footer_logo {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    justify-self: center;
+}
+
+.footer_links {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    justify-self: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer_links_nav {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #6B6B6B;
+    text-decoration: none;
+    margin-left: 30px;
+}
